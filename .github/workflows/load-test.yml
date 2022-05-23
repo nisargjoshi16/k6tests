@@ -1,4 +1,9 @@
 k6_load_test:
+
+  ON:
+    push:
+      branches: [main]
+      
   name: k6 Load Test
   runs-on: ubuntu-latest
 
