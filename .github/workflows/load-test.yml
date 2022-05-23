@@ -1,6 +1,6 @@
 k6_load_test:
 
-  ON:
+  on:
     push:
       branches: [main]
       
