@@ -28,3 +28,8 @@ jobs:
         with:
           filename: src/script.js
           flags: --out json=results.json      
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: k6-report
+          path: results.json
